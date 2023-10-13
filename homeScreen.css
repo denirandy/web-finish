@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    width: auto;
+    height: 80px;
+    margin: 0;
+    padding: 5px;
+
+}
+
+header>img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+
+}
+
+.navs1 {
+    font-size: 40px;
+    margin-right: 59px;
+    color: #000;
+
+}
+
+.navs2 {
+    font-size: 20px;
+    color: #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.button-container {
+    width: 140px;
+    height: 55px;
+}
+
+.button-signin {
+    width: 135px;
+    height: 50px;
+    border-radius: 40px;
+    color: #FFF;
+    background: #E55604;
+}
+.button-signin:hover {
+    color: #E55604;
+    background: #EBE4D1;
+    width: 140px;
+    height: 55px;
+    transition-duration: 300ms;
+}
+
+.hero {
+    background-image: url('asset/image/hero.png');
+    background-size: cover;
+    width: auto;
+    height: 800px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 80px;
+    font-size: 50px;
+}
+
+.hero>h1 {
+    margin: 0;
+    -webkit-text-stroke: 2px #000;
+    line-height: 170px;
+}
+
+.descripsi {
+    margin: 30px 0;
+    padding: 30px 100px;
+    background-image: url('asset/image/bg.png');
+    width: auto;
+    height: 1227px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripsi-content {
+    display: flex;
+    flex-direction: column;
+    width: 1215px;
+    height: 1215px;
+    background: #EBE4D1;
+    box-shadow: 0px 4px 4px 0px #000;
+    border-radius: 50px 0 50px 0;
+    padding: 50px 100px;
+}
+
+.descripsi-content>h1 {
+    text-align: center;
+    color: #000;
+    font-family: Inika;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.descripsi-content>ul {
+    color: #000;
+    font-family: Inika;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 60px;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px #000;
+    width: auto;
+    height: 110px;
+    flex-shrink: 0;
+    margin: 50px 0;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support>h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 150px;
+}
+
+.support-content {
+    width: 100%;
+    height: 462px;
+    flex-shrink: 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 571px;
+    flex-shrink: 0;
+    background: rgba(229, 86, 4, 0.70);
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    gap: 40px;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 0 50px;
+
+
+}
+
+.about>h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inika;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about>p {
+    color: #000;
+    font-family: Inika;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 1000px;
+    height: 479px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 1000px;
+    height: 479px;
+}
+
+.gmap_iframe {
+    width: 1000px !important;
+    height: 479px !important;
+}
+
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 500px;
+}
+
+.garis {
+    width: 900px;
+}
+
+.icon-sosmed{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.icon-sosmed > img:hover{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    
+}
